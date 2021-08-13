@@ -1,0 +1,539 @@
+*{
+  margin-top: 0px!important;
+}
+
+p { margin: 0 !important; }
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  background-color:crimson!important;
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+ul li {
+  float: left;
+  width: 130px;
+  height: 40px;
+  background-color: black;
+  opacity: .8;
+  color: crimson;
+  font-size: 10px;
+}
+
+ul li ul li{
+  display: none;
+  font-size: 10px;
+
+}
+
+ul li:hover ul li {
+  display: block;
+  text-decoration: none;
+  color: crimson;
+  font-size: 10px;
+}
+
+.container-lastrace{
+  margin-top: 50px!important;
+  margin: 300px;
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(16,16,16, 0.7);
+    border-radius: 4px;
+}
+
+.container-drivers{
+    margin-top: 50px!important;
+  margin: 300px;
+    width: 1150px;
+    height: 4100px;
+    text-align: center;
+    background-color: rgba(16,16,16, 0.7);
+    border-radius: 4px;
+}
+
+.container-races{
+    margin-top: 50px!important;
+  margin: 300px;
+    width: 1150px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(16,16,16, 0.7);
+    border-radius: 4px;
+}
+
+.container-partners{
+    margin-top: 50px!important;
+  margin: 300px;
+    width: 1150px;
+    height: 700px;
+    text-align: center;
+    background-color: rgba(16,16,16, 0.7);
+    border-radius: 4px;
+}
+
+
+.container-lastrace h3{
+  font-family: Impact;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 10px;
+  text-shadow: 0 0 30px red;
+}
+
+.container-drivers h3{
+
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 10px;
+  text-shadow: 0 0 30px red;
+}
+
+
+.container-races h3{
+font-family: Impact;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 10px;
+  text-shadow: 0 0 30px red;
+}
+
+.container-partners h3{
+font-family: Impact;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 10px;
+  text-shadow: 0 0 30px red;
+}
+/* Header **/
+header{
+  background:black;
+  color:#ffffff;
+  padding-top:10px;
+  border-bottom:4px groove crimson;
+  text-decoration: none;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+}
+
+header #branding{
+  float:left;
+}
+
+
+.top-menu{
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+
+}
+
+header nav{
+  float:right;
+  margin-top:10px!important;
+}
+
+header .highlight{
+  color:red;
+  font-weight:bold;
+  font-family: Impact;
+}
+.highlight2{
+  color: white;
+  font-size: 45px;
+  font-family: Impact;
+    text-shadow: 0 0 10px red;
+
+}
+
+.current a{
+  font-size: 20px;
+  font-family: Impact;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px red;
+}
+header a:hover{
+  text-decoration: none;
+  color: crimson;
+  font-weight:bold;
+  font-size: 18px;
+}
+
+header a:active{
+  color: crimson;
+  text-decoration: none;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header a:visited{
+  text-decoration: none;
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header a:focus{
+  text-decoration: none;
+  color:crimson;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+#gif{
+  width: 500px;
+  height: auto;
+}
+
+/* Showcase */
+#main-content{
+  background:url('../img/backgr.png') no-repeat 0px -100px;
+  background-size: auto;
+  color:#ffffff;
+  border-bottom: 3px groove crimson;
+  min-height: 1000px;
+}
+
+#drivers-content{
+  color:#ffffff;
+}
+#races-content{
+  color:#ffffff;
+}
+
+#partners-content{
+  color:#ffffff;
+}
+
+.rotate{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+
+  color: crimson;
+  font-size: 50px;
+}
+
+.carusel{
+  padding: 80px;
+  text-align: center;
+}
+
+
+/* Boxes */
+#boxes{
+  background: black;
+   border-bottom: 4px groove crimson;
+}
+
+section .boxes {
+  border-bottom: 4px groove aquamarine;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+  color: white;
+  text-shadow: 0 0 10px crimson;
+}
+
+#boxes .box img{
+  width:150px;
+}
+
+
+.signupgo{
+    position: absolute;
+    top: 50%;
+    margin-bottom: -50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.signupgo h1{
+  color: white;
+  text-shadow: 0 0 20px red;
+  text-decoration: none;
+}
+
+.shop-cart h1{
+  color: white;
+  text-shadow: 0 0 20px red;
+  text-decoration: none;
+  text-align: center;
+}
+
+.table{
+  width: 80%;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  text-align: left;
+}
+
+
+
+input[type="email"]{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+}
+
+.signupgo input[type="password"]{
+  height: 45px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  background-color: black;
+  color: white;
+}
+
+.signupgo input[type="text"]{
+  height: 45px;
+  width: 100px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  background-color: black;
+  color: white;
+}
+
+.shop-cart{
+
+}
+
+
+
+footer{
+  color:black;
+  background-color:red;
+  text-align: center;
+  position: sticky;
+}
+
+
+.s2015{
+  margin-top: 50px!important;
+}
+
+.s2014{
+  margin-top: 50px!important;
+}
+
+.s2013{
+  margin-top: 50px!important;
+}
+
+.btn{
+  margin-top: 10px!important;
+   background-color: transparent!important;
+  text-align: center!important;
+  border: 3px groove red!important;
+  text-decoration: none!important;
+  font-size: 18px!important;
+  color: white!important;
+} 
+
+
+.modal-content{
+  background: rgba(0, 0, 0, 0.7)!important;
+  border: 2px groove crimson!important;
+  height: auto;
+}
+
+
+#modal-login-label{
+  color: crimson!important;
+}
+
+.form-group{
+  border: 3px groove aquamarine!important;
+}
+
+input[type="text"], textarea {
+
+  background-color : black!important;
+  border: 2px groove red!important;
+  color: white!important;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px!important;
+  float: center;
+  display: block;
+
+}
+
+input[type="password"], textarea {
+  background-color : black!important;
+  border: none!important;
+  color: white!important;
+}
+
+input[type="email"], textarea {
+  background-color : black!important;
+  border: none!important;
+  color: white!important;
+  font-size: 8;
+}
+
+#input-h{
+  text-align: center;
+  margin:50px!important;
+  margin-bottom: 0px!important;
+}
+
+.close{
+  color: crimson!important;
+  opacity: 1!important;
+}
+
+#cpmain{
+  min-height: 1000px;
+}
+
+.cpmain{
+
+   margin: 40px;
+   margin-top: 40px!important;
+}
+
+#banner{
+  width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo1{
+  width: 80px;
+  height: auto;
+  margin-left: 290px;
+
+}
+
+.racename{
+  color: red;
+  font-family: Impact;
+  padding-top: 20px; 
+}
+
+.raceinfo{
+  padding-top: 5px;
+  padding-left: 50px;
+  font-size: 20px;
+text-align: left;
+}
+
+.imgtrack{
+  padding-left: 50px;
+}
+
+
+.racebox{
+  float: left;
+    width: 50%;
+    padding: 50px;
+    height: 300px;
+}
+
+.clearfix{
+  content: "";
+    clear: both;
+    display: table;
+}
+
+.table-responsive{
+  width: 1000px;
+  margin-left: 100px;
+  margin-top: 100px!important;
+}
+
+.table-racerace{
+  width: 300px;
+  
+}
+.fastestlap{
+  margin-top: 30px!important;
+}
+
+.fastestlap a{
+  text-decoration: none;
+  color: white;
+  text-shadow: none;
+}
+
+#currentleaders{
+  margin-top: 50px!important;
+}
+
+.fastestlap h3{
+  padding-top: 15px!important;
+  text-decoration: none;
+  text-align: left;
+}
+
+.driverphoto{
+  width: 200px;
+  height: 200px;
+}
+
+#banner_2{
+  width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -250px!important;
+}
+
+#banner_3{
+  width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 200px!important;
+}
+
+.table-races{
+  width: 1000px;
+margin-left: 50px!important;
+  margin-top: 50px!important;
+}
